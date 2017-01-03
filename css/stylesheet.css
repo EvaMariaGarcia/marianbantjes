@@ -1,0 +1,95 @@
+/* -- CSS RESET -- */
+*{
+  padding: 0;
+  margin; 0;
+  font-size; 100%;
+  line-height: 1em;
+}
+body{
+width: 100%;
+font-family: 'Josefin Sans', sans-serif;
+  margin: auto;
+  background-color: #D9C7DA;
+  color: black;
+line-height: 1.8em;
+}
+/* --Divs-- */
+.div1 {background-color: #D9C7DA;
+height: 570px; 
+ width: 100%;
+}
+.div2 {background-color: grey;
+height: 2500px;
+width: 100%;  
+}
+
+/*--Headings--*/
+h1 {font-size: 6em;
+    text-align: center;
+padding-top: -6em;}
+
+h2 {font-size: 3em;
+    text-align: center;
+    padding-top:1em;
+    padding-bottom: -10em;
+}
+p, li {margin: 1em;
+line-height: 1em;
+font-size: 2em;}
+
+blockquote {
+  padding: 1em, 2em, 1em;
+  font-size: .em;
+  line-height: .5em;
+  margin: 3em;
+}
+
+cite {
+    margin: 2em;
+  font-size: 1em;
+}
+blockquote p {
+  color: #D9C7DA;
+  hangiing-puncutation: first;
+  text-indent: -0.5em;
+    text-align: center;
+}
+
+/*--Images--*/
+img { display: block;
+margin: auto;
+    padding-top: -2em;
+    max-width: 100%;}
+
+/*--Navigation--*/ 
+nav {padding: 0.10em;
+border-top: 2px solid #333;
+border-bottom: 2px solid #333;
+margin-bottom: 4em;
+}
+nav ul {text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+nav a:hover {border-bottom: none;}
+
+/*--Links--*/
+a {color: black;
+text-decoration: none;}
+
+a:hover {color: grey;
+border-bottom: 1px dotted; }
+
+
+  /*--smartphone--*/
+  @media (max-width: 35em) {
+    body{
+    margin: auto 0;
+    width: 100%;
+  font-size: }
+  }
+    
