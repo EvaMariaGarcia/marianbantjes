@@ -33,9 +33,10 @@ h2 {font-size: 3em;
     padding-top:1em;
     padding-bottom: -10em;
 }
-p, li {margin: 1em;
+p, li {margin: 30px;
 line-height: 1em;
-font-size: 2em;}
+font-size: 1.5em;
+letter-spacing: 2px;}
 
 blockquote {
   padding: 1em, 2em, 1em;
@@ -83,6 +84,17 @@ text-decoration: none;}
 
 a:hover {color: grey;
 border-bottom: 1px dotted; }
+
+/*--footer--*/
+footer ul {margin-top: -1em;text-align: left;
+  letter-spacing: 1px;
+    font-size: 13px;
+    margin: 2em;
+        
+}
+.div4 {background-color: grey;
+height: 500px;
+width: 100% }
 
 
   /*--smartphone--*/
