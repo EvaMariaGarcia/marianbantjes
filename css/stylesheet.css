@@ -5,8 +5,10 @@
   font-size; 100%;
   line-height: 1em;
 }
+
 body{
 width: 100%;
+max-width: 900px;
 font-family: 'Josefin Sans', sans-serif;
   margin: auto;
   background-color: #D9C7DA;
@@ -19,8 +21,9 @@ height: 570px;
  width: 100%;
 }
 .div2 {background-color: grey;
-height: 2500px;
-width: 100%;  
+height: 6550px;
+width: 100%;
+padding-bottom: -10em;
 }
 
 /*--Headings--*/
@@ -30,14 +33,26 @@ padding-top: -6em;}
 
 h2 {font-size: 3em;
     text-align: center;
-    padding-top:1em;
+    padding-top: 2em;
     padding-bottom: -10em;
 }
-p, li {margin: 30px;
-line-height: 1em;
-font-size: 1.5em;
+h3 {font-size: 1em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: -10em;
+}
+h4 {font-size: 2em;
+    text-align: left;
+    margin: 40px;}
+
+p, li {margin: 60px;
+line-height: 30px;
+font-size: 20px;
 letter-spacing: 2px;}
 
+.para1 {padding-top: 4em;}
+.para2 {padding-top: 4em;}
+.para3 {padding-top: 4em;} 
 blockquote {
   padding: 1em, 2em, 1em;
   font-size: .em;
@@ -50,7 +65,7 @@ cite {
   font-size: 1em;
 }
 blockquote p {
-  color: #D9C7DA;
+  color: white;
   hangiing-puncutation: first;
   text-indent: -0.5em;
     text-align: center;
@@ -62,11 +77,24 @@ margin: auto;
     padding-top: -2em;
     max-width: 100%;}
 
+.img1 {padding-top: 2em;}
+
+.swirl {float: left;}
+
+.img2 {float: right;
+padding-bottom: 2em;}
+
+.img3 {float: left;
+padding-bottom: 2em;}
+
+.img4 {float: left;}
+
 /*--Navigation--*/ 
-nav {padding: 0.10em;
-border-top: 2px solid #333;
-border-bottom: 2px solid #333;
-margin-bottom: 4em;
+nav {padding: 0.10em 0;
+border-top: 3px solid #333;
+border-bottom: 3px solid #333;
+margin-bottom: 2em;
+margin-top: -4em;
 }
 nav ul {text-align: center;
   text-transform: uppercase;
@@ -92,16 +120,43 @@ footer ul {margin-top: -1em;text-align: left;
     margin: 2em;
         
 }
-.div4 {background-color: grey;
+.div5 {background-color: #D9C7DA;
 height: 500px;
-width: 100% }
+width: 100%; }
 
+.div4 {background-color: grey;
+height: 685px; 
+    width: 100%;}
 
+  /*--tablet--*/
+@media (max-width: 50em) {
+  body{
+    width: 85%;}
+
+    .div2 {
+        width: 100%;
+        height: 500em;
+     padding: 0.5em;
+    }
+
+  }
   /*--smartphone--*/
   @media (max-width: 35em) {
     body{
     margin: auto 0;
     width: 100%;
   font-size: }
-  }
-    
+  
+.div2 {width: 100%;
+        height: 650em;
+     padding: 0.5em;
+    }
+
+.div4 {width: 100%;
+        height: 85em;
+     padding: 0.5em;
+    }
+.div5 {width: 100%;
+        height: 85em;
+     padding: 0.5em;}
+}
