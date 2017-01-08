@@ -114,11 +114,12 @@ a:hover {color: grey;
 border-bottom: 1px dotted; }
 
 /*--footer--*/
-footer ul {margin-top: -1em;text-align: left;
+footer article {margin-top: -1em;
   letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 15px;
     margin: 2em;
-        
+    text-align: center; 
+    line-height: .1px;
 }
 .div5 {background-color: #D9C7DA;
 height: 500px;
@@ -160,3 +161,23 @@ height: 685px;
         height: 85em;
      padding: 0.5em;}
 }
+
+ /*--Icons--*/
+
+.icons { float: left; 
+margin: 0 auto;
+margin-left: 15em;
+}
+
+.icons:hover img{
+    opacity: .6;
+    transform: scale(.90);
+}
+
+.icons img:hover{ opacity: 1;
+transform: scale(1.1);
+}
+
+.icons img {float: left; 
+    transition: all .2s ease-in-out;
+margin-left: 4em;}
